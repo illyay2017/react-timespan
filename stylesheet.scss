@@ -1,6 +1,10 @@
 $primary-color: #4488b4;
 $secondary-color: #df7100;
 
+body {
+  background: linear-gradient(120deg, #1D89F4, #00DB78, #F7BF18, #d33131);
+}
+
 .timeline {
   $breakingPoint: 700px;
 
@@ -123,7 +127,7 @@ $secondary-color: #df7100;
       }
 
       .external-link {
-        font-size: 1em;
+        font-size: 2em;
         color: #aaa;
 
         svg.icon {
